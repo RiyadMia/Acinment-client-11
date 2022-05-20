@@ -2,9 +2,8 @@ import React from "react";
 import auth from "../../../firebase.init";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Link, NavLink } from "react-router-dom";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { signOut } from "firebase/auth";
-import PageTaitle from "../../Pages/PageTaitle/PageTaitle";
 
 const Header = () => {
   const [user] = useAuthState(auth);
