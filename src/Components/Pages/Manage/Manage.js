@@ -4,11 +4,11 @@ import { useLocation, useNavigate } from "react-router-dom";
 import Hooks from "../../../Hooks/Hooks";
 import PageTaitle from "../PageTaitle/PageTaitle";
 import "./Manage.css";
-const Manage = (props) => {
+const Manage = () => {
   const [Services, setServices] = Hooks([]);
   // const sliceRsult = Services.slice(9);
-  const { service, hendelRemove } = props;
-  const { name, price, quantity, img, _id } = props.service;
+
+  // const { name, price, quantity, img, _id } =Service;
 
   const location = useLocation();
   let from = location.state?.from?.pathname || "/manage";
@@ -51,7 +51,7 @@ const Manage = (props) => {
 
               <div className="review-item-details-container">
                 <button
-                  onClick={() => navigateToServiceDetail(_id)}
+                  onClick={() => navigateToServiceDetail(service._id)}
                   className=" mt-3  btn btn-primary  order-btn"
                 >
                   Delevare
