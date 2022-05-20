@@ -25,7 +25,7 @@ const Products = (props) => {
       </div>
 
       <div className="">
-        <Link to="/orders">
+        <Link to="/manage">
           <button className="btn-cart">Inventory</button>
         </Link>
       </div>
