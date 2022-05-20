@@ -56,6 +56,12 @@ const Manage = (props) => {
                 >
                   Delevare
                 </button>
+                <button
+                  className="text-danger delete-btn"
+                  onClick={() => handleDelete(service._id)}
+                >
+                  Delete
+                </button>
               </div>
             </div>
           </div>
