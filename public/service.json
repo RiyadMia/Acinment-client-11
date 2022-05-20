@@ -1,0 +1,75 @@
+[
+    {
+        "_id": 1,
+        "name": "  Samsung Mobile",
+        "price": "300",
+        "quantity":"10",
+        "description": "Mobile phones in the 1950s through 1970s were large and heavy, and most were built into cars. In the late 20th century technology improved so people could carry their phones easily.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7BZ4UQAIlsU3QHDL7rhNxmljwJpFQQkmH9Q&usqp=CAU"
+    },
+    {
+        "_id": 2, 
+        "name": " Iphone Mobile",
+        "price": "100",
+        "quantity":"10",
+        "description": "Although Dr. Martin Cooper from Motorola made the first call using a mobile phone in 1973 (using a handset weighing 2 kilograms), it did not use the type of cellular mobile phone network that we use today.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvH7wAsqevWmPEaIElQ6Vyzh2C3CmS8vTWHw&usqp=CAU"
+    },
+    {
+        "_id": 3,
+        "name": " vivo Mobile",
+        "price": "150",
+        "quantity":"10",
+        "description": "The first cellular mobile phone networks were created in 1979 in Japan. Now almost all urban areas, and many country areas, are covered by mobile phone networks.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZstwA_AB3GVE60wPNWUVK32xNZvGVQRTSO66WvC25c5Qe2lPj7JxRlO0K3CnyqrYvToM&usqp=CAU"
+    },
+    {
+        "_id": 4,
+        "name": "  Redmi Mobile",
+        "price": "200",
+        "quantity":"10",
+        "description": "A cell phone combines technologies, mainly telephone, radio, and computer. Most also have a digital camera inside.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXyOEUR8DZmq2tfVG4umanxqnbJIaG68EQNA&usqp=CAU"
+    },
+    {
+        "_id": 5,
+        "name": "  Oppo Mobile",
+        "price": "100",
+        "quantity":"10",
+        "description": "The network is the company that provides the phone service. In most areas there will be more than one mobile network. Customers choose networks based on how well the different networks work in their area, or by price.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGEbgKq__s1dffxYG5j2FMOKfY2JcvbYB8ng&usqp=CAU"
+    },
+    {
+        "_id": 6,
+        "name": "Mi Mobile",
+        "price": "300",
+        "quantity":"10",
+        "description": "A mobile phone is a wireless handheld device that allows users to make and receive calls. While the earliest generation of mobile phones could only make and receive calls",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjoJflQgyBQhb3jBBt5rlUOCFPY40L1CjbRw&usqp=CAU"
+    },
+    {
+        "_id": 7,
+        "name": "Sony Mobile",
+        "price": "300",
+        "quantity":"10",
+        "description": "A mobile phone, cellular phone, cell phone, cellphone, handphone, hand phone or pocket phone, sometimes shortened to simply mobile, cell, or just phone",
+        "img": "https://5.imimg.com/data5/SELLER/Default/2021/12/AR/WS/GJ/44538015/samsung-galaxy-a03-core-232gb--250x250.png"
+    },
+    {
+        "_id": 8,
+        "name": "OnePlus Mobile",
+        "price": "300",
+        "quantity":"10",
+        "description":"As mobile phones became more popular, they began to cost less money, and more people could afford them. Monthly plans became available for rates as low as US$30 or US$40 a month.",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKsfbBOlrY0qlPJjHGOJXR3mEO4aaSuZYHoQ&usqp=CAU"
+       
+    },
+    {
+        "_id": 9,
+        "name": "Sony Mobile",
+        "price": "300",
+        "quantity":"10",
+        "description": "The mobile phone can be used to communicate over long distances without wires.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxHntURdZ_snZuRDQZ4ozbXIYNgZw4VhX1Q&usqp=CAU"
+    }
+]

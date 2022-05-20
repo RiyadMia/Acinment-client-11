@@ -1,0 +1,11 @@
+ 
+.width-from{
+    margin-top: 25px;
+    border: 1px solid lightgray;
+    width: 350px;
+    padding: 30px;
+}
+.padding{
+    padding: 10px;
+    border-radius: 10px;
+}

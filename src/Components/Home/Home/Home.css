@@ -1,0 +1,16 @@
+.home-container{
+flex-direction: column;
+}
+.home-gap{
+    gap: 90px;
+}
+.home-img{
+    width: 400px;
+    height: 400px;
+}
+
+@media only screen and (max-width:576px){
+    .home-gap{
+        flex-direction: column;
+    }
+}

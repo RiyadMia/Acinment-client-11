@@ -1,0 +1,36 @@
+.color{
+    color: rgb(214, 154, 42);
+    margin-left: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.manage-container{
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px;
+     margin: 20px;
+}
+
+.margin img{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+}
+.margin{
+    margin-left: 15px;
+}
+.price-left{
+    margin-left: 15px;
+}
+.delete-btn{
+    background-color: lightgrey;
+    border: none;
+    margin-left: 15px;
+}
+.m-left{
+    margin-left: 15px;
+}
+.in-left{
+    margin-left: 45px;
+}

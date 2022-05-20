@@ -1,0 +1,22 @@
+.footer-style{
+    
+    margin-top: 50px;
+    height: 150px;
+   
+}
+.gridFooter{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
+.img-footer{
+    height: 80px;
+    width: 100px;
+}
+
+
+ 
+ 
+ 
+ 
+ 
