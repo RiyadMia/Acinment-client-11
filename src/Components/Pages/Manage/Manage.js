@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 import Hooks from "../../../Hooks/Hooks";
 import PageTaitle from "../PageTaitle/PageTaitle";
@@ -66,6 +66,10 @@ const Manage = () => {
             </div>
           </div>
         ))}
+
+        <Link to="/addItems">
+          <button className="btn-cart text-center  ">Add New Items </button>
+        </Link>
       </div>
     </div>
   );
