@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 import Hooks from "../../../Hooks/Hooks";
+
 import PageTaitle from "../PageTaitle/PageTaitle";
 import "./Manage.css";
-const Manage = () => {
+const Manage = (props) => {
+  // const { navigateToServiceDetail, quantity } = props;
   const [Services, setServices] = Hooks([]);
   // const sliceRsult = Services.slice(9);
 
-  // const { name, price, quantity, img, _id } =Service;
+  // const { name, price, quantity, img, _id } = props.service;
 
   const location = useLocation();
   let from = location.state?.from?.pathname || "/manage";
@@ -29,6 +31,8 @@ const Manage = () => {
   };
   const navigate = useNavigate();
   const navigateToServiceDetail = (id) => {
+    // const newQuantity =quantity - 1
+    console.log("aioituyitripayaiuyt", id);
     navigate(`/checkoutdatail/${id}`);
   };
 
@@ -56,6 +60,7 @@ const Manage = () => {
                 >
                   Delevare
                 </button>
+
                 <button
                   className="text-danger delete-btn"
                   onClick={() => handleDelete(service._id)}
