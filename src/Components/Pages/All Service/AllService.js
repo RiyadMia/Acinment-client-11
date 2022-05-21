@@ -1,13 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import auth from "../../../firebase.init";
 import Hooks from "../../../Hooks/Hooks";
-
-import useCart from "../../Cart/useCart/useCart";
 import Products from "../../Products/Products";
 import Lodeing from "../Lodeing/Lodeing";
-import { addToDb, getStoredCart } from "../../../uitilits/fakedb";
 import "./AllService.css";
 import PageTaitle from "../PageTaitle/PageTaitle";
 
